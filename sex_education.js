@@ -1,4 +1,4 @@
-        (function() {
+(function() {
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
@@ -18,13 +18,8 @@
           async_load(window)
         }
     })();
-    
-document.querySelector('# ').addEventListener('click', function() {
-	const openBubble = new MouseEvent('click');
-	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
-});
-    
-var clickFunction = function() {
+
+ var clickFunction = function() {
 
         /*cavai code for clicking*/
         const openBubble = new MouseEvent('click');
@@ -65,6 +60,8 @@ winLoad(function() {
           }},1000);
 
           } catch (e) {
-            console.log(`cavai error log: ${e}`)
+            console.log(e)
           }
         });
+
+
