@@ -19,11 +19,6 @@
         }
     })();
     
-document.querySelector('#12345').addEventListener('click', function() {
-	const openBubble = new MouseEvent('click');
-	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
-});
-
 var clickFunction = function() {
 
         /*cavai code for clicking*/
