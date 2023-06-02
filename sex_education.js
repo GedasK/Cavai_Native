@@ -1,4 +1,4 @@
-    (function() {
+        (function() {
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
@@ -18,6 +18,11 @@
           async_load(window)
         }
     })();
+    
+document.querySelector('# ').addEventListener('click', function() {
+	const openBubble = new MouseEvent('click');
+	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
+});
     
 var clickFunction = function() {
 
